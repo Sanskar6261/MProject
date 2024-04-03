@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+*{
+    margin:0px;
+    padding:0;
+    /* border: 0; */
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #00853E; */
+}
+:root{
+    --bs-dark-color: #98FB98 ;
+    --bs-dark-primary:#00853E;
+    --bs-main-color: #00693E;
+    --bs-primary-color: #004953 ;
+    --secondary-color: #18453B ;
+    --bs-supporting-color:#1B4D3E ;
+}
+h1,h2,h3,h4,h5,h6
+{
+  color: var(--bs-dark-color);
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+p{
+    margin: 0;
+    font-weight: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+}
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+li{
+    list-style: none;
+}
+
+/* ------- nav bar---------- */
+.Logo-image{
+    width: 4rem;
+    margin: 5%;
+    border-radius: 50%;
+}
+.nav-link-values
+{
+ font-size: 1.5rem;
+}
+.nav-link{
+    color:#18453B;
+}
+.nav-link:hover
+{
+    color: #1B4D3E;
+    background-color: rgb(6, 195, 6);
+    border-radius: 2rem;
+}
+/*-------- part_1_section--- */
+.part_1_section_ p
+{
+  font-size: 150%;
+  font-family:'Times New Roman', Times, serif;
+}
+.part_2_section_heading{
+    color: black;
+    font-weight:bolder;
+}
+.part_2_section_para
+{
+    color: brown;
+}
+.part_1_section .container
+{
+display: grid;
+place-content: center;
+height: inherit;
+}
+.bg-main
+{
+    height: 80vh;
+    position: relative;
+}
+.bg-color
+{
+    background-color: var(--bs-dark-primary);
+}
+.bg-theme
+{
+    color:var(--bs-supposting-color);
+    background-color: none;
+}
+.part_1_section_image
+{
+  max-width: 100%;
+  height: auto;
+  width: 40rem;
+  border-radius: 2rem;
+  margin-bottom: 50px;
+}
+
+/* .custom-shape-divider-bottom-1707146445 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+} */
+
+/* --------service_section------------ */
+/* .service_section
+{
+
+} */
+.comman-heading
+{
+font-size: 2.8rem;
+font-weight: 500;
+letter-spacing: 0.01rem;
+color: var(--bs-dark-primary);
+/* text-shadow: #004953; */
+}
+.comman-title
+{
+    margin-bottom: 4.2rem;
+}
+.service_section
+{
+    padding: 6rem 0 3rem 0  ;
+}
+.service_section_video
+{
+    height: 20rem;
+}
+
+.card_box_section:hover
+{
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+/* ------part_3_section------ */
+.part_3_section
+{
+ padding-top: 40px;
+ background-image: linear-gradient(rgba(22, 22, 22, 0.347),rgba(22, 22, 22, 0.9)) , url("images/Add\ a\ little\ bit\ of\ body\ text.png") ;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 6rem 0;
+overflow: hidden;
+
+}
+.part_3_section_image
+{
+    max-width: 100%;
+    height: auto;
+    width: 40rem;
+    border-radius: 2rem;
+    margin-bottom: 50px;
+}
+.part_4_section_heading
+{
+    color: rgb(13, 81, 13);
+    
+}
+.part_4_section_description
+{
+    color: rgba(0, 128, 0, 0.662);
+}
+
+/* ------------ (Section-4) bussiness-section --------------- */
+.bussiness-section
+{
+    padding-top: 3rem;
+}
+
+/* ------------ (Section-5) Card-section --------------- */
+.carousel .card
+{
+  background-color: black ;
+  color: white;
+  /* margin: 2% 18%; */
+  /* transition: all 0.3s linear;
+  transition: width 2s, height 4s; */
+}
+
+
+/* .carousel-inner .card :hover
+{
+     background-color: white;
+    color: black; 
+     width: 10wh;
+    height: 10vh; 
+} */
+.carousel-indicators
+{
+    bottom: -4rem;
+}
+.carousel-indicators  [data-bs-target]
+{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: white ;
+}
+
+/* -----------( section 7)input section-------------- */
+.contect-section .form-section
+{
+width: 40%;
+color: white;
+}
+
